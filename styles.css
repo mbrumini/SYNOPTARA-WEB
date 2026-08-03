@@ -62,7 +62,7 @@ h3 { line-height: 1.25; }
 .hero-visual { width: min(82%, 455px); justify-self: end; }
 .visual-frame { position: relative; padding: 1px; border: 1px solid rgba(196,221,232,.12); background: rgba(18,31,42,.34); box-shadow: 0 28px 70px rgba(3,10,15,.24); }
 .visual-frame::after { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, transparent 60%, rgba(24,216,239,.07)); pointer-events: none; }
-.visual-frame img { width: 100%; aspect-ratio: 1.15; object-fit: cover; opacity: .84; mix-blend-mode: screen; }
+.visual-frame img { width: 100%; height: auto; object-fit: contain; opacity: .84; mix-blend-mode: screen; }
 .frame-corner { position: absolute; z-index: 2; width: 34px; height: 34px; border-color: var(--cyan); }
 .frame-corner-a { left: -8px; top: -8px; border-left: 2px solid var(--cyan); border-top: 2px solid var(--cyan); }
 .frame-corner-b { right: -8px; bottom: -8px; border-right: 2px solid var(--magenta); border-bottom: 2px solid var(--magenta); }
