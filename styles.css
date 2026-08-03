@@ -50,7 +50,8 @@ button { font: inherit; }
 .eyebrow { display: flex; align-items: center; gap: 10px; margin: 0 0 20px; color: var(--cyan); font-size: .76rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .eyebrow span { display: inline-block; width: 23px; height: 2px; background: currentColor; }
 h1, h2, h3, p { margin-top: 0; }
-h1 { max-width: 800px; margin-bottom: 24px; font-size: clamp(3rem, 6vw, 5.7rem); line-height: .99; letter-spacing: -.055em; }
+h1 { max-width: 760px; margin-bottom: 24px; font-size: clamp(2.6rem, 5vw, 4.65rem); line-height: 1.03; letter-spacing: -.045em; }
+html[lang="de"] h1 { max-width: 720px; font-size: clamp(2.3rem, 4.15vw, 3.75rem); line-height: 1.08; letter-spacing: -.035em; }
 h2 { margin-bottom: 24px; font-size: clamp(2.2rem, 4.1vw, 4rem); line-height: 1.05; letter-spacing: -.045em; }
 h3 { line-height: 1.25; }
 .hero-lead { max-width: 670px; color: #bdc8d6; font-size: clamp(1.05rem, 1.5vw, 1.23rem); }
@@ -147,7 +148,8 @@ h3 { line-height: 1.25; }
   .site-nav a, .site-nav .nav-contact { padding: 13px; border: 0; }
   .language-picker select { min-width: 52px; height: 40px; padding-left: 8px; }
   .nav-toggle[aria-expanded="true"] > span:nth-child(2) { transform: translateY(6px) rotate(45deg); }.nav-toggle[aria-expanded="true"] > span:nth-child(3) { opacity: 0; }.nav-toggle[aria-expanded="true"] > span:nth-child(4) { transform: translateY(-6px) rotate(-45deg); }
-  h1 { font-size: clamp(2.65rem, 14vw, 4.3rem); }.hero { padding-block: 58px 70px; }.hero-grid { gap: 48px; }.hero-actions { align-items: stretch; flex-direction: column; }.button { width: 100%; }
+  h1 { font-size: clamp(2.15rem, 10.5vw, 3.2rem); line-height: 1.06; }.hero { padding-block: 58px 70px; }.hero-grid { gap: 48px; }.hero-actions { align-items: stretch; flex-direction: column; }.button { width: 100%; }
+  html[lang="de"] h1 { font-size: clamp(1.9rem, 8.5vw, 2.65rem); line-height: 1.12; letter-spacing: -.025em; }
   .hero-points { display: grid; }.hero-visual { width: min(78%, 310px); }.status-strip { align-items: flex-start; flex-direction: column; gap: 5px; }
   .trust-items { justify-content: flex-start; }
   .feature-grid, .benefit-grid, .number-grid { grid-template-columns: 1fr; }
