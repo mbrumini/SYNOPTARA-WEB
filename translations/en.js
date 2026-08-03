@@ -19,6 +19,7 @@ window.synoptaraTranslations.en = {
   },
   text: Object.fromEntries([
     ['Vai al contenuto', 'Skip to content'], ['Lingua', 'Language'], ['Apri il menu', 'Open menu'],
+    ['GRUPPO 1', 'GROUP 1'], ['GRUPPO 2', 'GROUP 2'], ['GRUPPO 3', 'GROUP 3'], ['GRUPPO 4', 'GROUP 4'], ['UNITÀ', 'UNIT'], ['Esito', 'Result'],
     ['Piattaforma', 'Platform'], ['Intelligenza artificiale', 'Artificial intelligence'], ['Integrazione', 'Integration'], ['Contatti', 'Contact'],
     ['Piattaforma di visione industriale', 'Industrial vision platform'],
     ['Controllo qualità automatico, dalla camera alla decisione.', 'Automated quality control, from camera to decision.'],
