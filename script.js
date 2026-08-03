@@ -1,5 +1,12 @@
 const menuButton = document.querySelector('.nav-toggle');
 const navigation = document.querySelector('.site-nav');
+const languageSelect = document.getElementById('language-select');
+
+languageSelect?.addEventListener('change', () => {
+  const url = new URL(window.location.href);
+  url.searchParams.set('lang', languageSelect.value);
+  window.location.href = url.href;
+});
 
 function closeMenu() {
   menuButton?.setAttribute('aria-expanded', 'false');

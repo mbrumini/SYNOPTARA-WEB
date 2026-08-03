@@ -11,6 +11,8 @@ Aprire `index.html` direttamente nel browser. In alternativa, dalla cartella del
 - Testi e struttura: `index.html`
 - Aspetto e comportamento responsive: `styles.css`
 - Menu mobile e animazioni leggere: `script.js`
+- Selettore lingua: `i18n.js`
+- Traduzioni inglese, francese e tedesco: cartella `translations/`
 - Immagini e icone: cartella `assets/`
 
 Usare sempre percorsi relativi per mantenere il sito funzionante anche da file locale.
@@ -32,6 +34,8 @@ Il dominio di produzione previsto è `https://synoptara.dev`.
 index.html
 styles.css
 script.js
+i18n.js
+translations/
 assets/
 README.md
 ```

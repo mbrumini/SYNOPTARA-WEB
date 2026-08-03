@@ -6,7 +6,12 @@
   <title>SYNOPTARA | Visione industriale e controllo qualità</title>
   <meta name="description" content="SYNOPTARA è una piattaforma di visione industriale per controllo qualità automatico, gestione multi-camera, strumenti AI e integrazione con gli impianti.">
   <link rel="canonical" href="https://synoptara.dev/">
-  <meta name="theme-color" content="#070a10">
+  <link rel="alternate" hreflang="it" href="https://synoptara.dev/?lang=it">
+  <link rel="alternate" hreflang="en" href="https://synoptara.dev/?lang=en">
+  <link rel="alternate" hreflang="fr" href="https://synoptara.dev/?lang=fr">
+  <link rel="alternate" hreflang="de" href="https://synoptara.dev/?lang=de">
+  <link rel="alternate" hreflang="x-default" href="https://synoptara.dev/">
+  <meta name="theme-color" content="#111c27">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
   <meta property="og:site_name" content="SYNOPTARA">
@@ -17,6 +22,7 @@
   <meta property="og:image:alt" content="Marchio SYNOPTARA, piattaforma di visione industriale">
   <link rel="icon" type="image/png" href="assets/synoptara-cover.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="i18n.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -28,16 +34,27 @@
         <span class="brand-mark" aria-hidden="true"><span></span></span>
         <span>SYNOPTARA</span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span class="sr-only">Apri il menu</span>
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Navigazione principale">
-        <a href="#piattaforma">Piattaforma</a>
-        <a href="#ai">Intelligenza artificiale</a>
-        <a href="#integrazione">Integrazione</a>
-        <a class="nav-contact" href="#contatti">Contatti</a>
-      </nav>
+      <div class="header-tools">
+        <label class="language-picker">
+          <span class="sr-only">Lingua</span>
+          <select id="language-select" aria-label="Lingua">
+            <option value="it">IT</option>
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+            <option value="de">DE</option>
+          </select>
+        </label>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Apri il menu</span>
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Navigazione principale">
+          <a href="#piattaforma">Piattaforma</a>
+          <a href="#ai">Intelligenza artificiale</a>
+          <a href="#integrazione">Integrazione</a>
+          <a class="nav-contact" href="#contatti">Contatti</a>
+        </nav>
+      </div>
     </div>
   </header>
 
