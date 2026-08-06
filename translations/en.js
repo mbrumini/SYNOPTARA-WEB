@@ -28,7 +28,7 @@ window.synoptaraTranslations.en = {
     ['Collegamento telecamera', 'Camera connection'],
     ['È sufficiente collegare una telecamera (Allied Vision consigliata) per l’acquisizione.', 'Simply connect a camera (Allied Vision recommended) for acquisition.'],
     ['Trigger esterno', 'External trigger'],
-    ['Un segnale hardware o di rete avvia l’acquisizione sincronizzata con il transito del pezzo.', 'A hardware or network signal starts the acquisition synchronised with the part’s passage.'],
+    ['Un segnale hardware avvia l’acquisizione sincronizzata con il transito del pezzo.', 'A hardware signal starts the acquisition synchronised with the part’s passage.'],
     ['Elaborazione immagine', 'Image processing'],
     ['Il sistema elabora l’immagine istantaneamente applicando gli strumenti e i modelli configurati.', 'The system processes the image instantly, applying the configured tools and models.'],
     ['Invio esito (TCP)', 'Result output (TCP)'],

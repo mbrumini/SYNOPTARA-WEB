@@ -28,7 +28,7 @@ window.synoptaraTranslations.fr = {
     ['Collegamento telecamera', 'Connexion de la caméra'],
     ['È sufficiente collegare una telecamera (Allied Vision consigliata) per l’acquisizione.', 'Il suffit de connecter une caméra (Allied Vision recommandée) pour l’acquisition.'],
     ['Trigger esterno', 'Déclencheur externe'],
-    ['Un segnale hardware o di rete avvia l’acquisizione sincronizzata con il transito del pezzo.', 'Un signal matériel ou réseau démarre l’acquisition synchronisée avec le passage de la pièce.'],
+    ['Un segnale hardware avvia l’acquisizione sincronizzata con il transito del pezzo.', 'Un signal matériel démarre l’acquisition synchronisée avec le passage de la pièce.'],
     ['Elaborazione immagine', 'Traitement de l’image'],
     ['Il sistema elabora l’immagine istantaneamente applicando gli strumenti e i modelli configurati.', 'Le système traite l’image instantanément en appliquant les outils et modèles configurés.'],
     ['Invio esito (TCP)', 'Envoi du résultat (TCP)'],
