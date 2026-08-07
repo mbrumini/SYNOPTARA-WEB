@@ -74,8 +74,13 @@
           </div>
         </div>
         <div class="hero-visual reveal" aria-label="Interfaccia principale del software">
-          <div class="visual-frame">
-            <img src="assets/screenshots/main.png" alt="Screenshot dell'interfaccia utente di SYNOPTARA" width="1920" height="1080">
+          <div class="visual-frame" style="position: relative;">
+            <img src="assets/screenshots/main.png" alt="Screenshot dell'interfaccia utente di SYNOPTARA" width="1920" height="1080" style="display: block; width: 100%; height: auto;">
+            <div class="hmi-slideshow">
+              <img src="assets/screenshots/inspect_connector.jpg" alt="Connettore" class="slide active">
+              <img src="assets/screenshots/inspect_cookies.jpg" alt="Biscotti" class="slide">
+              <img src="assets/screenshots/inspect_gear.jpg" alt="Ingranaggio" class="slide">
+            </div>
             <span class="frame-corner frame-corner-a"></span>
             <span class="frame-corner frame-corner-b"></span>
           </div>
@@ -183,5 +188,17 @@
       <div class="footer-meta"><a href="mailto:develop@synoptara.dev">develop@synoptara.dev</a><span>© <span id="year">2026</span> SYNOPTARA</span></div>
     </div>
   </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.hmi-slideshow .slide');
+      if (slides.length === 0) return;
+      let currentSlide = 0;
+      setInterval(() => {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+      }, 4000);
+    });
+  </script>
 </body>
 </html>
