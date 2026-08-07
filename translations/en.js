@@ -101,6 +101,21 @@ window.synoptaraTranslations.en = {
     ['Statistiche & Log', 'Statistics & Log'],
     ['Monitoraggio real-time dei tempi ciclo di elaborazione, tassi di scarto e contatori totali della produzione.', 'Real-time monitoring of processing cycle times, reject rates and total production counters.'],
     ['Diagnostica di rete', 'Network diagnostics'],
-    ['Visualizzazione dello stato di comunicazione del protocollo TCP e tracciabilità dei dati inviati al PLC.', 'Visualization of the TCP communication status and traceability of the data sent to the PLC.']
+    ['Visualizzazione dello stato di comunicazione del protocollo TCP e tracciabilità dei dati inviati al PLC.', 'Visualization of the TCP communication status and traceability of the data sent to the PLC.'],
+    ['Oltre i controlli tradizionali', 'Beyond traditional inspections'],
+    ['Cosa possiamo ispezionare con l\'AI?', 'What can we inspect with AI?'],
+    ['La potenza dei modelli di Deep Learning integrati in SYNOPTARA permette di affrontare sfide di ispezione complesse, dove la variabilità e le forme dei difetti impediscono l’uso di filtri di visione rigidi.', 'The power of Deep Learning models integrated in SYNOPTARA allows addressing complex inspection challenges, where the variability and shapes of defects prevent the use of rigid vision filters.'],
+    ['Componenti meccanici ed ingranaggi', 'Mechanical components and gears'],
+    ['Ispezione di cricche, porosità di fusione, deformazioni dei denti o errori di assemblaggio su particolari metallici complessi.', 'Inspection of cracks, casting porosity, tooth deformations or assembly errors on complex metal parts.'],
+    ['Connettori ed assemblaggi elettrici', 'Connectors and electrical assemblies'],
+    ['Verifica del corretto inserimento e planarità dei pin, integrità della plastica e presenza di componenti corretti.', 'Verification of correct pin insertion and planarity, plastic integrity and presence of correct components.'],
+    ['Packaging e saldature plastiche', 'Packaging and plastic sealings'],
+    ['Analisi della continuità e integrità del cordone di saldatura termica, presenza di pieghe o corpi estranei nel sigillo.', 'Analysis of continuity and integrity of the thermal sealing seam, presence of folds or foreign bodies in the seal.'],
+    ['Superfici e difetti estetici', 'Surfaces and aesthetic defects'],
+    ['Individuazione di graffi, macchie, striature o aloni su metalli spazzolati, plastiche lucide o superfici verniciate.', 'Detection of scratches, stains, streaks or halos on brushed metals, glossy plastics or painted surfaces.'],
+    ['Tracciabilità e Direct Part Marking', 'Traceability and Direct Part Marking'],
+    ['Lettura ed interpretazione di codici DataMatrix, QR o scritte incise tramite laser (DPM), anche se parzialmente graffiate o distorte.', 'Reading and interpretation of DataMatrix, QR codes or texts engraved by laser (DPM), even if partially scratched or distorted.'],
+    ['Rilevamenti dimensionali avanzati', 'Advanced dimensional detection'],
+    ['Localizzazione intelligente dei bordi pezzo di forme organiche o flessibili per eseguire misure centesimali deterministiche.', 'Intelligent localization of part edges of organic or flexible shapes to perform centesimal deterministic measurements.']
   ])
 };
