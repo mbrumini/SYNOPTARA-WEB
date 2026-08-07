@@ -97,7 +97,7 @@ window.synoptaraTranslations.en = {
     ['Visualizzazione live', 'Live visualization'],
     ['Feedback video immediato con sovrapposizione grafica degli esiti del controllo (OK/KO) e delle misure attive.', 'Immediate video feedback with graphical overlay of inspection outcomes (OK/NG) and active measurements.'],
     ['Configurazione ricette', 'Recipe configuration'],
-    ['Gestione integrata dei parametri per camera, tempi di esposizione, tolleranze geometriche e modelli AI.', 'Integrated management of camera parameters, exposure times, geometric tolerances and AI models.'],
+    ['Gestione parametri camera, tolleranze e modelli AI. Il training dei modelli si può fare in postazione o su un altro PC.', 'Management of camera parameters, tolerances and AI models. Model training can be done on-site or on another PC.'],
     ['Statistiche & Log', 'Statistics & Log'],
     ['Monitoraggio real-time dei tempi ciclo di elaborazione, tassi di scarto e contatori totali della produzione.', 'Real-time monitoring of processing cycle times, reject rates and total production counters.'],
     ['Diagnostica di rete', 'Network diagnostics'],
@@ -116,6 +116,8 @@ window.synoptaraTranslations.en = {
     ['Tracciabilità e Direct Part Marking', 'Traceability and Direct Part Marking'],
     ['Lettura ed interpretazione di codici DataMatrix, QR o scritte incise tramite laser (DPM), anche se parzialmente graffiate o distorte.', 'Reading and interpretation of DataMatrix, QR codes or texts engraved by laser (DPM), even if partially scratched or distorted.'],
     ['Rilevamenti dimensionali avanzati', 'Advanced dimensional detection'],
-    ['Localizzazione intelligente dei bordi pezzo di forme organiche o flessibili per eseguire misure centesimali deterministiche.', 'Intelligent localization of part edges of organic or flexible shapes to perform centesimal deterministic measurements.']
+    ['Localizzazione intelligente dei bordi pezzo di forme organiche o flessibili per eseguire misure centesimali deterministiche.', 'Intelligent localization of part edges of organic or flexible shapes to perform centesimal deterministic measurements.'],
+    ['Training dei modelli', 'Model training'],
+    ['L’addestramento (training) può essere eseguito direttamente sulla postazione di lavoro oppure offline su un altro computer.', 'Training can be performed directly at the workstation or offline on another computer.']
   ])
 };

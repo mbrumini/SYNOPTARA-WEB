@@ -194,7 +194,7 @@ window.synoptaraTranslations.de = {
     ['Visualizzazione live', 'Live-Visualisierung'],
     ['Feedback video immediato con sovrapposizione grafica degli esiti del controllo (OK/KO) e delle misure attive.', 'Sofortiges Video-Feedback mit grafischer Überlagerung von Prüfergebnissen (OK/KO) und aktiven Messungen.'],
     ['Configurazione ricette', 'Rezeptkonfiguration'],
-    ['Gestione integrata dei parametri per camera, tempi di esposizione, tolleranze geometriche e modelli AI.', 'Integrierte Verwaltung der Kameraparameter, Belichtungszeiten, geometrischen Toleranzen und KI-Modelle.'],
+    ['Gestione parametri camera, tolleranze e modelli AI. Il training dei modelli si può fare in postazione o su un altro PC.', 'Verwaltung von Kameraparameter, Toleranzen und KI-Modellen. Das Training der Modelle kann vor Ort oder auf einem anderen PC durchgeführt werden.'],
     ['Statistiche & Log', 'Statistik & Log'],
     ['Monitoraggio real-time dei tempi ciclo di elaborazione, tassi di scarto e contatori totali della produzione.', 'Echtzeit-Überwachung von Verarbeitungszykluszeiten, Ausschussraten und Gesamtproduktionszählern.'],
     ['Diagnostica di rete', 'Netzwerkdiagnose'],
@@ -213,6 +213,8 @@ window.synoptaraTranslations.de = {
     ['Tracciabilità e Direct Part Marking', 'Rückverfolgbarkeit und Direct Part Marking (DPM)'],
     ['Lettura ed interpretazione di codici DataMatrix, QR o scritte incise tramite laser (DPM), anche se parzialmente graffiate o distorte.', 'Auslesen und Interpretieren von DataMatrix- und QR-Codes oder laser-gravierten Texten (DPM), selbst bei teilweiser Beschädigung oder Verzerrung.'],
     ['Rilevamenti dimensionali avanzati', 'Erweiterte dimensionale Messungen'],
-    ['Localizzazione intelligente dei bordi pezzo di forme organiche o flessibili per eseguire misure centesimali deterministiche.', 'Intelligente Lokalisierung von Bauteilkanten bei organischen oder flexiblen Formen zur Durchführung deterministischer Messungen im Hundertstelbereich.']
+    ['Localizzazione intelligente dei bordi pezzo di forme organiche o flessibili per eseguire misure centesimali deterministiche.', 'Intelligente Lokalisierung von Bauteilkanten bei organischen oder flexiblen Formen zur Durchführung deterministischer Messungen im Hundertstelbereich.'],
+    ['Training dei modelli', 'Modelltraining'],
+    ['L’addestramento (training) può essere eseguito direttamente sulla postazione di lavoro oppure offline su un altro computer.', 'Das Training kann direkt an der Arbeitsstation oder offline auf einem anderen Computer durchgeführt werden.']
   ])
 };

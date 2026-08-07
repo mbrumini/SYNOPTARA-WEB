@@ -194,7 +194,7 @@ window.synoptaraTranslations.fr = {
     ['Visualizzazione live', 'Visualisation en direct'],
     ['Feedback video immediato con sovrapposizione grafica degli esiti del controllo (OK/KO) e delle misure attive.', 'Retour vidéo immédiat avec superposition graphique des résultats d\'inspection (OK/KO) et des mesures actives.'],
     ['Configurazione ricette', 'Configuration des recettes'],
-    ['Gestione integrata dei parametri per camera, tempi di esposizione, tolleranze geometriche e modelli AI.', 'Gestion intégrée des paramètres de caméra, temps d\'exposition, tolérances géométriques et modèles d\'IA.'],
+    ['Gestione parametri camera, tolleranze e modelli AI. Il training dei modelli si può fare in postazione o su un altro PC.', 'Gestion des paramètres de caméra, tolérances et modèles d\'IA. Le training des modèles peut se faire sur site ou sur un autre PC.'],
     ['Statistiche & Log', 'Statistiques & Rapport'],
     ['Monitoraggio real-time dei tempi ciclo di elaborazione, tassi di scarto e contatori totali della produzione.', 'Suivi en temps réel des temps de cycle de traitement, des taux de rejet et des compteurs de production totaux.'],
     ['Diagnostica di rete', 'Diagnostic réseau'],
@@ -213,6 +213,8 @@ window.synoptaraTranslations.fr = {
     ['Tracciabilità e Direct Part Marking', 'Traçabilité et Direct Part Marking (marquage direct)'],
     ['Lettura ed interpretazione di codici DataMatrix, QR o scritte incise tramite laser (DPM), anche se parzialmente graffiate o distorte.', 'Lecture et interprétation de codes DataMatrix, QR ou de textes gravés au laser (DPM), même s\'ils sont partiellement rayés ou déformés.'],
     ['Rilevamenti dimensionali avanzati', 'Mesures dimensionnelles avancées'],
-    ['Localizzazione intelligente dei bordi pezzo di forme organiche o flessibili per eseguire misure centesimali deterministiche.', 'Localisation intelligente des bords de pièces de formes organiques ou flexibles pour effectuer des mesures déterministes au centième.']
+    ['Localizzazione intelligente dei bordi pezzo di forme organiche o flessibili per eseguire misure centesimali deterministiche.', 'Localisation intelligente des bords de pièces de formes organiques ou flexibles pour effectuer des mesures déterministes au centième.'],
+    ['Training dei modelli', 'Entraînement des modèles'],
+    ['L’addestramento (training) può essere eseguito direttamente sulla postazione di lavoro oppure offline su un altro computer.', 'L\'entraînement (training) peut être effectué directement sur le poste de travail ou hors ligne sur un autre ordinateur.']
   ])
 };
