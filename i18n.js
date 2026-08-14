@@ -6,6 +6,7 @@
 
   document.documentElement.lang = language;
   if (selector) selector.value = language;
+  updatePageUrls(language);
   if (language === 'it') return;
 
   const translationScript = document.createElement('script');
@@ -13,6 +14,17 @@
   translationScript.onload = () => window.synoptaraApplyTranslations?.(language);
   document.head.appendChild(translationScript);
 }());
+
+function updatePageUrls(language) {
+  const isSoftwarePage = /\/software(?:\.html)?\/?$/.test(window.location.pathname);
+  const pagePath = isSoftwarePage ? '/software' : '/';
+  const canonicalUrl = language === 'en'
+    ? `https://synoptara.dev${pagePath}`
+    : `https://synoptara.dev${pagePath}?lang=${language}`;
+
+  document.querySelector('link[rel="canonical"]')?.setAttribute('href', canonicalUrl);
+  document.querySelector('meta[property="og:url"]')?.setAttribute('content', canonicalUrl);
+}
 
 window.synoptaraApplyTranslations = function (language) {
   const translation = window.synoptaraTranslations?.[language];

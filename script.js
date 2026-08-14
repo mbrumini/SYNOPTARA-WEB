@@ -8,6 +8,19 @@ languageSelect?.addEventListener('change', () => {
   window.location.href = url.href;
 });
 
+const currentLanguage = new URLSearchParams(window.location.search).get('lang');
+if (currentLanguage && currentLanguage !== 'en') {
+  document.querySelectorAll('a[href]').forEach((link) => {
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('#') || href.startsWith('mailto:')) return;
+
+    const url = new URL(href, window.location.href);
+    if (url.origin !== window.location.origin) return;
+    url.searchParams.set('lang', currentLanguage);
+    link.href = url.href;
+  });
+}
+
 function closeMenu() {
   menuButton?.setAttribute('aria-expanded', 'false');
   navigation?.classList.remove('is-open');
