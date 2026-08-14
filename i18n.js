@@ -1,7 +1,7 @@
 (function () {
   const supportedLanguages = ['it', 'en', 'fr', 'de'];
-  const requestedLanguage = new URLSearchParams(window.location.search).get('lang') || 'it';
-  const language = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : 'it';
+  const requestedLanguage = new URLSearchParams(window.location.search).get('lang') || 'en';
+  const language = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : 'en';
   const selector = document.getElementById('language-select');
 
   document.documentElement.lang = language;
