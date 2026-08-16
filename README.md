@@ -8,7 +8,8 @@ Aprire `index.html` direttamente nel browser. In alternativa, dalla cartella del
 
 ## Modifica dei contenuti
 
-- Testi e struttura: `index.html`
+- Homepage commerciale: `index.html`
+- Approfondimenti: `platform.html`, `software.html`, `ai.html`, `integration.html`
 - Aspetto e comportamento responsive: `styles.css`
 - Menu mobile e animazioni leggere: `script.js`
 - Selettore lingua: `i18n.js`
@@ -32,6 +33,10 @@ Il dominio di produzione previsto è `https://synoptara.dev`.
 
 ```text
 index.html
+platform.html
+software.html
+ai.html
+integration.html
 styles.css
 script.js
 i18n.js

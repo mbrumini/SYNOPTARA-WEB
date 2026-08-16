@@ -1,7 +1,7 @@
 (function () {
   const supportedLanguages = ['it', 'en', 'fr', 'de'];
-  const requestedLanguage = new URLSearchParams(window.location.search).get('lang') || 'en';
-  const language = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : 'en';
+  const requestedLanguage = new URLSearchParams(window.location.search).get('lang') || 'it';
+  const language = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : 'it';
   const selector = document.getElementById('language-select');
 
   document.documentElement.lang = language;
@@ -16,8 +16,9 @@
 }());
 
 function updatePageUrls(language) {
-  const isSoftwarePage = /\/software(?:\.html)?\/?$/.test(window.location.pathname);
-  const pagePath = isSoftwarePage ? '/software' : '/';
+  const fileName = window.location.pathname.split('/').pop() || '';
+  const pageName = fileName.replace(/\.html$/, '');
+  const pagePath = !pageName || pageName === 'index' ? '/' : `/${pageName}`;
   const canonicalUrl = language === 'en'
     ? `https://synoptara.dev${pagePath}`
     : `https://synoptara.dev${pagePath}?lang=${language}`;

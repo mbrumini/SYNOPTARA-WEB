@@ -3,13 +3,16 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://synoptara.dev/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://synoptara.dev/" />
     <xhtml:link rel="alternate" hreflang="it" href="https://synoptara.dev/?lang=it" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://synoptara.dev/?lang=fr" />
     <xhtml:link rel="alternate" hreflang="de" href="https://synoptara.dev/?lang=de" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://synoptara.dev/" />
   </url>
+  <url><loc>https://synoptara.dev/platform</loc><lastmod>2026-08-16</lastmod></url>
+  <url><loc>https://synoptara.dev/ai</loc><lastmod>2026-08-16</lastmod></url>
+  <url><loc>https://synoptara.dev/integration</loc><lastmod>2026-08-16</lastmod></url>
   <url>
     <loc>https://synoptara.dev/software</loc>
     <lastmod>2026-08-14</lastmod>
