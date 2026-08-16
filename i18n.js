@@ -1,7 +1,7 @@
 (function () {
   const supportedLanguages = ['it', 'en', 'fr', 'de'];
-  const requestedLanguage = new URLSearchParams(window.location.search).get('lang') || 'it';
-  const language = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : 'it';
+  const requestedLanguage = new URLSearchParams(window.location.search).get('lang') || 'en';
+  const language = supportedLanguages.includes(requestedLanguage) ? requestedLanguage : 'en';
   const selector = document.getElementById('language-select');
 
   document.documentElement.lang = language;
@@ -10,8 +10,14 @@
   if (language === 'it') return;
 
   const translationScript = document.createElement('script');
-  translationScript.src = `translations/${language}.js`;
-  translationScript.onload = () => window.synoptaraApplyTranslations?.(language);
+  translationScript.src = `translations/${language}.js?v=2`;
+  translationScript.onload = () => {
+    const pageScript = document.createElement('script');
+    pageScript.src = `translations/pages/${language}.js?v=2`;
+    pageScript.onload = () => window.synoptaraApplyTranslations?.(language);
+    pageScript.onerror = () => window.synoptaraApplyTranslations?.(language);
+    document.head.appendChild(pageScript);
+  };
   document.head.appendChild(translationScript);
 }());
 
@@ -41,11 +47,13 @@ window.synoptaraApplyTranslations = function (language) {
     node.nodeValue = node.nodeValue.replace(source, translation.text[source]);
   });
 
+  const pageName = (window.location.pathname.split('/').pop() || 'index').replace(/\.html$/, '') || 'index';
+  const pageMeta = translation.pages?.[pageName];
   const pageTitle = document.title;
   if (translation.text[pageTitle]) {
     document.title = translation.text[pageTitle];
-  } else if (translation.meta.title) {
-    document.title = translation.meta.title;
+  } else if (pageMeta?.title || translation.meta.title) {
+    document.title = pageMeta?.title || translation.meta.title;
   }
 
   const metaDesc = document.querySelector('meta[name="description"]');
@@ -53,8 +61,8 @@ window.synoptaraApplyTranslations = function (language) {
     const descContent = metaDesc.getAttribute('content');
     if (translation.text[descContent]) {
       metaDesc.setAttribute('content', translation.text[descContent]);
-    } else if (translation.meta.description) {
-      metaDesc.setAttribute('content', translation.meta.description);
+    } else if (pageMeta?.description || translation.meta.description) {
+      metaDesc.setAttribute('content', pageMeta?.description || translation.meta.description);
     }
   }
 
@@ -65,8 +73,8 @@ window.synoptaraApplyTranslations = function (language) {
     const ogTitleContent = ogTitle.getAttribute('content');
     if (translation.text[ogTitleContent]) {
       ogTitle.setAttribute('content', translation.text[ogTitleContent]);
-    } else if (translation.meta.title) {
-      ogTitle.setAttribute('content', translation.meta.title);
+    } else if (pageMeta?.title || translation.meta.title) {
+      ogTitle.setAttribute('content', pageMeta?.title || translation.meta.title);
     }
   }
 
@@ -75,8 +83,8 @@ window.synoptaraApplyTranslations = function (language) {
     const ogDescContent = ogDesc.getAttribute('content');
     if (translation.text[ogDescContent]) {
       ogDesc.setAttribute('content', translation.text[ogDescContent]);
-    } else if (translation.meta.ogDescription) {
-      ogDesc.setAttribute('content', translation.meta.ogDescription);
+    } else if (pageMeta?.description || translation.meta.ogDescription) {
+      ogDesc.setAttribute('content', pageMeta?.description || translation.meta.ogDescription);
     }
   }
 
