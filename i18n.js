@@ -31,6 +31,21 @@ function updatePageUrls(language) {
 
   document.querySelector('link[rel="canonical"]')?.setAttribute('href', canonicalUrl);
   document.querySelector('meta[property="og:url"]')?.setAttribute('content', canonicalUrl);
+
+  const alternateLanguages = ['en', 'it', 'fr', 'de', 'x-default'];
+  alternateLanguages.forEach((alternateLanguage) => {
+    const alternateUrl = alternateLanguage === 'en' || alternateLanguage === 'x-default'
+      ? `https://synoptara.dev${pagePath}`
+      : `https://synoptara.dev${pagePath}?lang=${alternateLanguage}`;
+    let alternate = document.querySelector(`link[rel="alternate"][hreflang="${alternateLanguage}"]`);
+    if (!alternate) {
+      alternate = document.createElement('link');
+      alternate.rel = 'alternate';
+      alternate.hreflang = alternateLanguage;
+      document.head.appendChild(alternate);
+    }
+    alternate.href = alternateUrl;
+  });
 }
 
 window.synoptaraApplyTranslations = function (language) {
