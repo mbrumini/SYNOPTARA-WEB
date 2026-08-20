@@ -16,6 +16,8 @@ window.synoptaraTranslations.fr = {
     '.process-flow': { 'aria-label': 'Flux d’intégration' },
     '.operation-flow': { 'aria-label': 'Cycle de fonctionnement automatique' },
     '.button-primary': { href: 'mailto:develop@synoptara.dev?subject=Demande%20d%27informations%20SYNOPTARA' },
+    '.contact-list .contact-link:first-child': { href: 'mailto:develop@synoptara.dev?subject=Evaluation%20d%27une%20application%20SYNOPTARA' },
+    '.contact-list .contact-link:last-child': { href: 'mailto:info@synoptara.dev?subject=Demande%20d%27informations%20SYNOPTARA' },
     'meta[property="og:image:alt"]': { content: 'SYNOPTARA, plateforme de vision industrielle' }
   },
   text: Object.fromEntries([
@@ -77,6 +79,9 @@ window.synoptaraTranslations.fr = {
     ['Partiamo dal controllo da realizzare.', 'Partons de l’inspection à réaliser.'],
     ['Descrivi il componente, i difetti da intercettare, il tempo ciclo e le condizioni di acquisizione disponibili. Contattaci anche per richiedere una demo del sistema. La fattibilità si valuta su campioni rappresentativi e criteri di accettazione chiari.', 'Décrivez la pièce, les défauts à détecter, le temps de cycle et les conditions d’acquisition disponibles. Contactez-nous également pour demander une démonstration du système. La faisabilité est évaluée sur des échantillons représentatifs et des critères d’acceptation clairs.'],
     ['Scrivi a', 'Écrivez à'], ['Visione industriale, controllo qualità e intelligenza artificiale applicata.', 'Vision industrielle, contrôle qualité et intelligence artificielle appliquée.'],
+    ['Parliamo del tuo progetto.', 'Parlons de votre projet.'],
+    ["Scrivici per valutare un'applicazione, richiedere una demo o ricevere informazioni su SYNOPTARA.", 'Contactez-nous pour évaluer une application, demander une démonstration ou en savoir plus sur SYNOPTARA.'],
+    ['Demo e progetti', 'Démonstrations et projets'], ['Informazioni generali', 'Informations générales'],
     ['Software', 'Logiciel'],
     ['Esplora il software', 'Découvrir le logiciel'],
     ['Vedi l’interfaccia software', 'Voir l’interface du logiciel'],

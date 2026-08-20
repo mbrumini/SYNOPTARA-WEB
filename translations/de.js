@@ -16,6 +16,8 @@ window.synoptaraTranslations.de = {
     '.process-flow': { 'aria-label': 'Integrationsablauf' },
     '.operation-flow': { 'aria-label': 'Automatischer Betriebszyklus' },
     '.button-primary': { href: 'mailto:develop@synoptara.dev?subject=Informationsanfrage%20zu%20SYNOPTARA' },
+    '.contact-list .contact-link:first-child': { href: 'mailto:develop@synoptara.dev?subject=Bewertung%20einer%20SYNOPTARA-Anwendung' },
+    '.contact-list .contact-link:last-child': { href: 'mailto:info@synoptara.dev?subject=Informationsanfrage%20zu%20SYNOPTARA' },
     'meta[property="og:image:alt"]': { content: 'SYNOPTARA, Plattform für industrielle Bildverarbeitung' }
   },
   text: Object.fromEntries([
@@ -77,6 +79,9 @@ window.synoptaraTranslations.de = {
     ['Partiamo dal controllo da realizzare.', 'Beginnen wir mit Ihrer Prüfaufgabe.'],
     ['Descrivi il componente, i difetti da intercettare, il tempo ciclo e le condizioni di acquisizione disponibili. Contattaci anche per richiedere una demo del sistema. La fattibilità si valuta su campioni rappresentativi e criteri di accettazione chiari.', 'Beschreiben Sie das Bauteil, die zu erkennenden Fehler, die Zykluszeit und die verfügbaren Aufnahmebedingungen. Kontaktieren Sie uns auch, um eine System-Demo anzufordern. Die Machbarkeit wird anhand repräsentativer Muster und klarer Akzeptanzkriterien bewertet.'],
     ['Scrivi a', 'Schreiben Sie an'], ['Visione industriale, controllo qualità e intelligenza artificiale applicata.', 'Industrielle Bildverarbeitung, Qualitätskontrolle und angewandte künstliche Intelligenz.'],
+    ['Parliamo del tuo progetto.', 'Sprechen wir über Ihr Projekt.'],
+    ["Scrivici per valutare un'applicazione, richiedere una demo o ricevere informazioni su SYNOPTARA.", 'Kontaktieren Sie uns, um eine Anwendung zu bewerten, eine Demo anzufordern oder mehr über SYNOPTARA zu erfahren.'],
+    ['Demo e progetti', 'Demos und Projekte'], ['Informazioni generali', 'Allgemeine Informationen'],
     ['Software', 'Software'],
     ['Esplora il software', 'Software entdecken'],
     ['Vedi l’interfaccia software', 'Software-Oberfläche anzeigen'],

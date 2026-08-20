@@ -16,6 +16,8 @@ window.synoptaraTranslations.en = {
     '.process-flow': { 'aria-label': 'Integration flow' },
     '.operation-flow': { 'aria-label': 'Automatic operating cycle' },
     '.button-primary': { href: 'mailto:develop@synoptara.dev?subject=SYNOPTARA%20information%20request' },
+    '.contact-list .contact-link:first-child': { href: 'mailto:develop@synoptara.dev?subject=SYNOPTARA%20application%20assessment' },
+    '.contact-list .contact-link:last-child': { href: 'mailto:info@synoptara.dev?subject=SYNOPTARA%20information%20request' },
     'meta[property="og:image:alt"]': { content: 'SYNOPTARA, industrial vision platform' }
   },
   text: Object.fromEntries([
@@ -77,6 +79,9 @@ window.synoptaraTranslations.en = {
     ['Partiamo dal controllo da realizzare.', 'Start with the inspection you need.'],
     ['Descrivi il componente, i difetti da intercettare, il tempo ciclo e le condizioni di acquisizione disponibili. Contattaci anche per richiedere una demo del sistema. La fattibilità si valuta su campioni rappresentativi e criteri di accettazione chiari.', 'Describe the part, the defects to detect, the cycle time and the available acquisition conditions. Contact us also to request a system demo. Feasibility is assessed using representative samples and clear acceptance criteria.'],
     ['Scrivi a', 'Write to'], ['Visione industriale, controllo qualità e intelligenza artificiale applicata.', 'Industrial vision, quality control and applied artificial intelligence.'],
+    ['Parliamo del tuo progetto.', 'Let’s talk about your project.'],
+    ["Scrivici per valutare un'applicazione, richiedere una demo o ricevere informazioni su SYNOPTARA.", 'Contact us to assess an application, request a demo or learn more about SYNOPTARA.'],
+    ['Demo e progetti', 'Demos and projects'], ['Informazioni generali', 'General information'],
     ['Software', 'Software'],
     ['Esplora il software', 'Explore the software'],
     ['Vedi l’interfaccia software', 'View software interface'],
